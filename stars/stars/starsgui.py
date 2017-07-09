@@ -980,6 +980,7 @@ class SCDF(CDF,SBroadcast):
         SBroadcast.interaction(self)
 
 
+
 class SHistogram(Histogram,SBroadcast):
     """Application subclass of Histogram from gView.py"""
     def __init__(self,name,master,varName,allX,project,
